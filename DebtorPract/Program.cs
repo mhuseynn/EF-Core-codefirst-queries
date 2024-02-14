@@ -227,9 +227,9 @@ DebtorDb debtorDb = new DebtorDb();
 //=================================================================================================================
 
 // 20) Adindaki ve familyasindaki herflerden "smile" sozunu yaza bileceyimiz borclularin siyahisini cixartmaq
-var list = debtorDb.Debtors!.ToList().Where(debtor => debtor.FullName.Contains('s') && debtor.FullName.Contains('m') && debtor.FullName.Contains('i') && debtor.FullName.Contains('l') && debtor.FullName.Contains('e'));
+//var list = debtorDb.Debtors!.ToList().Where(debtor => debtor.FullName.Contains('s') && debtor.FullName.Contains('m') && debtor.FullName.Contains('i') && debtor.FullName.Contains('l') && debtor.FullName.Contains('e'));
 
-foreach (var debtor in list)
-{
-    Console.WriteLine(debtor);
-}
+//foreach (var debtor in list)
+//{
+//    Console.WriteLine(debtor);
+//}
